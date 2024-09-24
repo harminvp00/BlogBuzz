@@ -1,0 +1,463 @@
+/* ----------------------------------
+    NavBar and Home Page Responsive code for Dark or Light Both Themes
+---------------------------------- */
+@media screen and (max-width: 1370px) {
+    .Dark .navbar {
+        width: 100% auto;
+    }
+
+    .Dark #Random_Blogs .container-fluid {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        row-gap: 15px;
+    }
+
+    .Light .navbar {
+        width: 100%;
+    }
+
+    .Light #Random_Blogs .container-fluid {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        row-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .Dark .navbar {
+        width: 250px auto;
+    }
+
+    .Dark #Random_Blogs .container-fluid {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 15px;
+    }
+
+    .Light .navbar {
+        width: 250px auto;
+    }
+
+    .Light #Random_Blogs .container-fluid {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Dark #Random_Blogs {
+        min-width: 400px;
+    }
+
+    .Light #Random_Blogs {
+        min-width: 400px;
+    }
+}
+
+
+/* ----------------------------------
+    About us page Responsive css code for Dark or Light Both Themes
+---------------------------------- */
+@media screen and (max-width: 1270px) {
+    .Dark #AboutUs img {
+        position: relative;
+        left: 80%;
+        z-index: 1;
+    }
+
+    .Light #AboutUs img {
+        position: relative;
+        left: 80%;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .Dark #AboutUs img {
+        position: relative;
+        left: 35%;
+        z-index: 1;
+    }
+
+    .Dark #AboutUs .align-middle {
+        position: relative;
+        left: 11%;
+        width: 300px;
+    }
+
+    .Light #AboutUs img {
+        position: relative;
+        left: 35%;
+        z-index: 1;
+    }
+
+    .Light #AboutUs .align-middle {
+        position: relative;
+        left: 11%;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    /* for row div  */
+    .Dark #AboutUs .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Light #AboutUs .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* for image, feature list and paragraph on Aboutus Page  */
+
+    .Dark #AboutUs img {
+        position: relative;
+        left: 100px;
+    }
+
+    .Dark #AboutUs .align-middle {
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+
+    .Dark #AboutUs p {
+        font-size: 15px;
+        padding: 0 40px;
+    }
+
+    .Light #AboutUs img {
+        position: relative;
+        left: 100px;
+    }
+
+    .Light #AboutUs .align-middle {
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+
+    .Light #AboutUs p {
+        font-size: 15px;
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .Dark .navbar {
+        width: 400px;
+    }
+
+    .Dark #AboutUs {
+        width: 400px;
+    }
+
+    .Dark #AboutUs img {
+        position: relative;
+        left: 90px;
+    }
+
+    .Dark #AboutUs .align-middle {
+        position: relative;
+        top: 30px;
+        left: 25px;
+    }
+
+    .Light .navbar {
+        width: 400px;
+    }
+
+    .Light #AboutUs {
+        width: 400px;
+    }
+
+    .Light #AboutUs img {
+        position: relative;
+        left: 90px;
+    }
+
+    .Light #AboutUs .align-middle {
+        position: relative;
+        top: 30px;
+        left: 25px;
+    }
+}
+
+/* ----------------------------------
+    footer Responsive css code for Dark or Light Both Themes
+---------------------------------- */
+
+@media screen and (max-width: 868px) {
+    .Dark footer .row {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+        row-gap: 20px;
+        padding: 50px 0;
+    }
+
+    .Light footer .row {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+        row-gap: 20px;
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .Dark footer .row {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        row-gap: 20px;
+        padding: 50px 0;
+    }
+
+    .Light footer .row {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        row-gap: 20px;
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width: 410px) and (min-width:100px) {
+    .Dark footer .row {
+        width: 400px;
+        padding: 50px 0;
+    }
+
+    .Light footer .row {
+        width: 400px;
+        padding: 50px 0;
+    }
+}
+
+/* ----------------------------------
+    Responsive css code for Catogory wise Blogs List in Dark or Light Both Themes
+---------------------------------- */
+
+@media screen and (max-width: 1070px) {
+    .Dark .Catagory .container {
+        grid-template-columns: repeat(2, auto);
+        row-gap: 30px;
+    }
+
+    .Light .Catagory .container {
+        grid-template-columns: repeat(2, auto);
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .Dark .Catagory .container {
+        grid-template-columns: repeat(1, auto);
+        row-gap: 30px;
+    }
+
+    .Light .Catagory .container {
+        grid-template-columns: repeat(1, auto);
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) and (min-width: 100px) {
+    .Dark .Catagory {
+        min-width: 400px;
+    }
+
+    .Light .Catagory {
+        min-width: 400px;
+    }
+}
+
+/* ----------------------------------
+    Responsive css code for Account Controlling Pages Like Login, signup, forgetPassword
+---------------------------------- */
+
+@media screen and (max-width: 856px) and (min-width: 701px) {
+    .Dark #accountBlock {
+        min-width: 700px;
+    }
+
+    .Dark #accountBlock .container {
+        min-width: 500px;
+    }
+
+    .Light #accountBlock {
+        min-width: 700px;
+    }
+
+    .Light #accountBlock .container {
+        min-width: 500px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Dark #accountBlock {
+        min-width: 300px auto;
+    }
+
+    .Dark #accountBlock .container {
+        min-width: 500px;
+    }
+
+    .Dark #accountBlock .container h1 {
+        font-size: 30px;
+    }
+
+    .Dark #accountBlock .container .form-label {
+        font-size: 16px;
+    }
+
+    .Dark #accountBlock .container .form-text {
+        font-size: 16px;
+    }
+
+    .Dark #accountBlock .container .form-check-input,
+    .form-check-label {
+        font-size: 16px;
+    }
+
+    .Dark #accountBlock .link {
+        font-size: 16px;
+    }
+
+    .Dark #accountBlock .form-floating input::placeholder {
+        font-size: 16px;
+    }
+
+    .Dark #accountBlock .forBtn {
+        padding: 5px 10px;
+    }
+
+    .Light #accountBlock {
+        min-width: 300px auto;
+    }
+
+    .Light #accountBlock .container {
+        min-width: 500px;
+    }
+
+    .Light #accountBlock .container h1 {
+        font-size: 30px;
+    }
+
+    .Light #accountBlock .container .form-label {
+        font-size: 16px;
+    }
+
+    .Light #accountBlock .container .form-text {
+        font-size: 16px;
+    }
+
+    .Light #accountBlock .container .form-check-input,
+    .form-check-label {
+        font-size: 16px;
+    }
+
+    .Light #accountBlock .link {
+        font-size: 16px;
+    }
+
+    .Light #accountBlock .form-floating input::placeholder {
+        font-size: 16px;
+    }
+
+    .Light #accountBlock .forBtn {
+        padding: 5px 10px;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    .Dark #accountBlock {
+        min-width: 500px auto;
+    }
+
+    .Dark #accountBlock .container {
+        min-width: 300px;
+    }
+
+    .Dark #accountBlock .container .input-group-text {
+        min-width: 100%;
+        margin-bottom: 7px;
+    }
+
+    .Light #accountBlock {
+        min-width: 500px auto;
+    }
+
+    .Light #accountBlock .container {
+        min-width: 300px;
+    }
+
+    .Light #accountBlock .container .input-group-text {
+        min-width: 100%;
+        margin-bottom: 7px;
+    }
+}
+
+@media screen and (max-width: 401px) {
+    .Dark #accountBlock {
+        min-width: 400px;
+    }
+
+    .Dark #accountBlock .container {
+        min-width: 300px;
+    }
+
+    .Dark #accountBlock .container .input-group-text {
+        min-width: 100%;
+        margin-bottom: 7px;
+    }
+
+    .Light #accountBlock {
+        min-width: 400px;
+    }
+
+    .Light #accountBlock .container {
+        min-width: 300px;
+    }
+
+    .Light #accountBlock .container .input-group-text {
+        min-width: 100%;
+        margin-bottom: 7px;
+    }
+}
+
+
+/* ----------------------------------
+    Responsive css code for the toggleBtn on the Navbar
+---------------------------------- */
+@media screen and (max-width: 991px) {
+
+    /* navbar-toggleIcon for .Dark Theme */
+    .Dark .toggleBtn {
+        display: block;
+        position: relative;
+    }
+
+    .Dark .toggleBtn:hover {
+        background-color: white;
+    }
+
+    /* navbar-toggleIcon for .Dark Theme */
+    .Light .toggleBtn {
+        display: block;
+        position: relative;
+    }
+
+    .Light .toggleBtn:hover .Light .navbar .container-fluid .collapse .navbar-nav {
+        display: block;
+        position: relative;
+    }
+
+}

@@ -1,0 +1,548 @@
+/* Custom Fonts are Here  */
+@font-face {
+    font-family: "Josefin_Sans";
+    src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Josefin_Sans2";
+    src: url(../fonts/Josefin_Sans/static/JosefinSans-Bold.ttf);
+}
+
+/* Universal css code for Every HTML elements  */
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: "Josefin_Sans";
+}
+
+/*  
+    -------------------------------------------
+    CSS code for the Dark Theme Mode 
+    -------------------------------------------
+*/
+.Dark .navbar {
+    /* This is for navbar backGround Color  */
+    background: #0F0F0F;
+    padding: 15px 0;
+}
+
+.Dark .navbar .container-fluid {
+    width: 70%;
+}
+
+
+/* for navbar items text color  */
+.Dark .navbar .container-fluid .navbar-brand {
+    color: white;
+}
+
+.Dark .navbar .container-fluid .nav-link {
+    color: white;
+}
+
+/* nav Item Hover effects  */
+.Dark .navbar .container-fluid .nav-link:hover {
+    text-decoration: underline;
+}
+
+
+/* Navbar dropdown CSS Code  */
+.Dark .navbar .nav-item .dropdown-menu {
+    display: none;
+    position: absolute;
+}
+
+.Dark .navbar .nav-item .dropdown-menu a {
+    text-align: start;
+    color: white;
+    background: #0F0F0F;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: block;
+}
+
+.Dark .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid whitesmoke;
+}
+
+
+.Dark .navbar .nav-item .dropdown-menu a:hover {
+    color: black;
+    background: whitesmoke;
+}
+
+
+
+/* This is CSS code of the footer component */
+.Dark footer .row {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    background: #0F0F0F;
+    padding: 100px 0;
+}
+
+.Dark footer .row .col {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background: #0F0F0F;
+    text-align: start;
+}
+
+.Dark footer .row .col h4 {
+    color: white;
+    text-decoration: underline;
+    text-align: start;
+    cursor: pointer;
+}
+
+.Dark footer .row .col a {
+    color: white;
+    text-decoration: none;
+    text-align: start;
+    font-size: 20px;
+}
+
+/* about us page css code */
+.Dark #AboutUs {
+    padding: 36px 0;
+    background: #232D3F;
+}
+
+.Dark #AboutUs .row {
+    position: relative;
+    right: 25%;
+}
+
+.Dark #AboutUs img {
+    position: relative;
+    left: 100%;
+    top: 10px;
+    max-width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px whitesmoke;
+}
+
+.Dark #AboutUs .align-middle {
+    position: relative;
+    left: 30%;
+    padding: 10px;
+    color: white;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px whitesmoke;
+}
+
+.Dark #AboutUs .align-middle li {
+    list-style-type: none;
+}
+
+.Dark #AboutUs .about-title {
+    text-align: center;
+    color: white;
+}
+
+.Dark #AboutUs p {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.Dark #AboutUs .row {
+    margin-left: 25%;
+}
+
+/* CSS  code for Blogs which appear on Home Page  */
+.Dark #Random_Blogs {
+    padding: 40px 40px;
+    background: #232D3F;
+}
+
+.Dark #Random_Blogs .container-fluid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-evenly;
+    row-gap: 24px;
+}
+
+.Dark .Catagory {
+    color: white;
+    background: #232D3F;
+    min-width: 100% auto;
+}
+
+/* Catogory wise Blogs Page css code is Here  */
+.Dark .Catagory .container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+/* CSS for Catagory Pages  */
+.Dark .Catagory .pageTitle {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.Dark .Catagory .pageTitle b {
+    font-size: 30px;
+    color: rgb(242, 255, 0);
+}
+
+.Dark .Catagory img {
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+
+/* Blogs Card CSS Code  */
+.Dark .Blogs .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    /* set a fixed height or adjust as needed */
+}
+
+.Dark .Blogs .card img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+
+}
+
+.Dark .Blogs .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Dark .Blogs .card-title,
+.card-text,
+.btn {
+    margin-bottom: 10px;
+}
+
+/* Login Page CSS Code is Here */
+.Dark #accountBlock {
+    color: white;
+    background: #232D3F;
+    padding: 50px 0;
+}
+
+.Dark #accountBlock .container {
+    width: 50%;
+    border: 1px solid white;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px whitesmoke;
+}
+
+.Dark #accountBlock .container h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.Dark #accountBlock .link {
+    color: rgb(0, 191, 255);
+    text-decoration: none;
+}
+
+.Dark #accountBlock .form-text {
+    color: white;
+}
+
+
+.Dark #accountBlock .input-group span {
+    color: black;
+    font-size: 20px;
+}
+
+.Dark #accountBlock .form-floating input::placeholder {
+    color: black;
+    font-size: 20px;
+}
+
+.Dark #accountBlock .forBtn {
+    width: 100%;
+    padding: 10px 15px;
+    color: white;
+    background-color: blue;
+    border-radius: 22px;
+    border: 0;
+    outline: 0;
+}
+/* 
+    -------------------------------------------
+    CSS code for the Light Theme Mode 
+    -------------------------------------------
+*/
+
+.Light .navbar {
+    /* This is for navbar backGround Color  */
+    background: #F6F5F2;
+    padding: 15px 0;
+}
+
+.Light .navbar .container-fluid {
+    width: 70%;
+}
+
+
+/* for navbar items text color  */
+.Light .navbar .container-fluid .navbar-brand {
+    color: black;
+}
+
+.Light .navbar .container-fluid .nav-link {
+    color: black;
+}
+
+/* nav Item Hover effects  */
+.Light .navbar .container-fluid .nav-link:hover {
+    text-decoration: underline;
+}
+
+
+/* Navbar dropdown CSS Code  */
+.Light .navbar .nav-item .dropdown-menu {
+    display: none;
+    position: absolute;
+    margin: 0;
+}
+
+.Light .navbar .nav-item .dropdown-menu a {
+    text-align: start;
+    color: black;
+    background: #F6F5F2;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: block;
+}
+
+.Light .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    border: 4px solid black;
+}
+
+
+.Light .navbar .nav-item .dropdown-menu a:hover {
+    color: white;
+    background: black;
+}
+
+/* This is CSS code of the footer component */
+.Light footer .row {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    background: #F6F5F2;
+    padding: 100px 0;
+}
+
+.Light footer .row .col {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background: #F6F5F2;
+    text-align: start;
+}
+
+.Light footer .row .col h4 {
+    color: black;
+    text-decoration: underline;
+    text-align: start;
+    cursor: pointer;
+}
+
+.Light footer .row .col a {
+    color: black;
+    text-decoration: none;
+    text-align: start;
+    font-size: 20px;
+}
+
+/* about us page css code */
+.Light #AboutUs {
+    padding: 36px 0;
+    background: #d1cabf;
+}
+
+.Light #AboutUs .row {
+    position: relative;
+    right: 25%;
+}
+
+.Light #AboutUs img {
+    position: relative;
+    left: 100%;
+    z-index: 1;
+    top: 10px;
+    max-width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+}
+
+.Light #AboutUs .align-middle {
+    position: relative;
+    left: 25%;
+    padding: 10px;
+    color: black;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.Light #AboutUs .align-middle li {
+    list-style-type: none;
+}
+
+
+.Light #AboutUs .about-title {
+    text-align: center;
+    color: black;
+}
+
+.Light #AboutUs p {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.Light #AboutUs .row {
+    margin-left: 25%;
+}
+
+/* CSS  code for Blogs which appear on Home Page  */
+.Light #Random_Blogs {
+    padding: 40px 40px;
+    background: #d1cabf;
+}
+
+.Light #Random_Blogs .container-fluid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-evenly;
+    row-gap: 24px;
+}
+
+.Light .Catagory {
+    color: black;
+    background: #d1cabf;
+    min-width: 100% auto;
+}
+
+/* Catogory wise Blogs Page css code is Here  */
+.Light .Catagory .container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    column-gap: 30px;
+    padding-bottom: 50px;
+}
+
+.Light .Catagory .pageTitle {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.Light .Catagory .pageTitle b {
+    font-size: 30px;
+    color: rgb(0, 0, 255);
+}
+
+.Light .Catagory img {
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+
+/* Blogs Card CSS Code  */
+.Light .Blogs .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    /* set a fixed height or adjust as needed */
+}
+
+.Light .Blogs .card img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
+
+.Light .Blogs .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Light .Blogs .card-title,
+.card-text,
+.btn {
+    margin-bottom: 10px;
+}
+
+/* Login Page CSS Code is Here */
+.Light #accountBlock {
+    color: black;
+    background: #d1cabf;
+    padding: 50px 0;
+}
+
+.Light #accountBlock .container {
+    width: 50%;
+    border: 1px solid white;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.Light #accountBlock .container h1 {
+    text-align: center;
+    color: black;
+}
+
+.Light #accountBlock .input-group span {
+    color: black;
+    font-size: 20px;
+}
+
+.Light #accountBlock .form-floating input::placeholder {
+    color: black;
+    font-size: 20px;
+}
+
+.Light #accountBlock .link {
+    color: rgb(0, 13, 255);
+    text-decoration: none;
+}
+
+.Light #accountBlock .forBtn {
+    width: 100%;
+    padding: 10px 15px;
+    color: whitesmoke;
+    background-color: rgb(60, 0, 255);
+    border-radius: 22px;
+    border: 0;
+    outline: 0;
+}
